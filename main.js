@@ -27,7 +27,9 @@ fourthDiv.appendChild(newParagraph);
 
 }
 
-var button = document.querySelector('.v-icon-timer-new');
+
+function startBot(){
+  var button = document.querySelector('.v-icon-timer-new');
 
 // Add an onclick event listener to the button
 button.addEventListener('click', function() {
@@ -43,6 +45,4 @@ console.log(vQuestion)
 console.log(vAnsversString)
 getMultiQuestionAnswer('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', vQuestion, vAnsversString);
 });
-
-
-
+}
